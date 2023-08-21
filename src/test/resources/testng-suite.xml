@@ -1,0 +1,14 @@
+<suite name="ProductDetailsTestSuite">
+    <test name="NightlyTests">
+        <groups>
+            <run>
+                <include name="nightlyRun"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.ProductDetailsTests"/>
+        </classes>
+    </test>
+</suite>
+
+<!-- mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng-suite.xml-->

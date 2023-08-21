@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: junit.ProductDetailsTests
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 103.691 s <<< FAILURE! - in junit.ProductDetailsTests
+junit.ProductDetailsTests.correctInformationDisplayedInQuickView_whenOpenProductFromSearchResults(String)[2]  Time elapsed: 5.96 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "models.ProductDetails.getName()" is null
+	at junit.ProductDetailsTests.lambda$correctInformationDisplayedInQuickView_whenOpenProductFromSearchResults$0(ProductDetailsTests.java:107)
+	at junit.ProductDetailsTests.correctInformationDisplayedInQuickView_whenOpenProductFromSearchResults(ProductDetailsTests.java:107)
+
