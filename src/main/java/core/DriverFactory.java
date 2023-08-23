@@ -1,4 +1,4 @@
-package junit.improved;
+package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.Getter;

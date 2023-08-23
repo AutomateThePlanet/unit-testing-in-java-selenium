@@ -1,4 +1,4 @@
-package junit.improved;
+package core;
 
 public enum Browser {
     CHROME("chrome"),

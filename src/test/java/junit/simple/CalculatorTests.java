@@ -17,6 +17,7 @@ public class CalculatorTests {
         System.out.println("This is @BeforeEach annotation");
     }
 
+    @Test
     @Order(2)
     public void test_Addition() {
         System.out.println("This is test 1");
